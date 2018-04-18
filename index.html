@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="app.css">
+  <title>Inversor de palavras</title>
+</head>
+
+<body>
+  <div class="principal">
+    <h1>Inversor de palavras</h1>
+
+    <div class="aplicação">
+      <input id="InpPalavra" type="text" name="palavra" placeholder="insira uma palavra ou frase">
+      <button id="btnPalavra" type="button" name="button" onclick="">Inverter</button>
+      <p>resultado :</p>
+    </div>
+  </div>
+  <footer>
+    Copyright (c) 2017 Copyright Holder All Rights Reserved.
+  </footer>
+
+  <script type="text/javascript" charset="utf-8">
+    var app = {};
+    app.getComponente = function(nome) {
+      if (!app[nome]) {
+        app[nome] = {
+          $ctrl: {}
+        };
+      }
+      return app[nome];
+    };
+  </script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
