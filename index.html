@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="app.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <title>Inversor de palavras</title>
 </head>
 
@@ -13,8 +14,8 @@
 
     <div class="aplicação">
       <input id="InpPalavra" type="text" name="palavra" placeholder="insira uma palavra ou frase">
-      <button id="btnPalavra" type="button" name="button" onclick="">Inverter</button>
-      <p>resultado :</p>
+      <button id="btnPalavra" type="button" name="button" onclick="app.c1.$ctrl.onClickResultado()">Inverter</button>
+      <p id="resultado">resultado</p>
     </div>
   </div>
   <footer>

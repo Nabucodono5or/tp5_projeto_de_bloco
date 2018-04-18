@@ -4,8 +4,11 @@
 
   function inverteString(string){
     let resultado = '';
-    for(let i = string.length -1; i >= 0; i--){
-      resultado += string[i];
+
+    if(string){
+      for(let i = string.length -1; i >= 0; i--){
+        resultado += string[i];
+      }
     }
 
     return resultado;
@@ -14,7 +17,8 @@
 
   $ctrl.onClickResultado = function(){
     console.log('clicado');
-    
 
+    let resposta = inverteString($('#InpPalavra').val());
+    $('#resultado').text(resposta);
 }
 })();
