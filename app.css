@@ -1,0 +1,30 @@
+.principal {
+  width: 900px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+
+div .aplicação {
+  width: 500px;
+  margin: 90px auto;
+  padding: 20px;
+  border: 1px solid #000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#btnPalavra {
+  border-radius: 1000px;
+  border: 0;
+  margin: 10px 0px;
+  padding: 10px 30px 10px 30px;
+}
+
+#resultado {
+  font-size: 1.5em;
+  font-weight: bold;
+}
